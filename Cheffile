@@ -11,3 +11,8 @@ cookbook 'mysql', :git => 'git://github.com/opscode-cookbooks/mysql.git'
 cookbook 'nodejs', :git => 'git://github.com/redguide/nodejs.git'
 
 cookbook 'huginn', :git => 'git://github.com/elijah/cookbook-huginn.git'
+
+
+cookbook 'rvm'
+cookbook 'rbenv'
+

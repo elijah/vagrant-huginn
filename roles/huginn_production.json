@@ -25,6 +25,6 @@
              "recipe[mysql::server]",
              "recipe[nodejs::nodejs_from_binary]",
              "recipe[nginx]",
-             "recipe[huginn_production]"
+             "recipe[huginn]"
            ]
 }
