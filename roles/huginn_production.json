@@ -22,7 +22,6 @@
 "run_list":[
              "recipe[git]",
              "recipe[apt]",
-             "recipe[mysql::server]",
              "recipe[nodejs::nodejs_from_binary]",
              "recipe[nginx]",
              "recipe[huginn]"
