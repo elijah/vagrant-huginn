@@ -10,6 +10,8 @@ cookbook 'nginx', :git => 'git://github.com/opscode-cookbooks/nginx.git'
 cookbook 'mysql', :git => 'git://github.com/opscode-cookbooks/mysql.git'
 cookbook 'nodejs', :git => 'git://github.com/redguide/nodejs.git'
 
+cookbook 'mysql2_chef_gem', '= 0.1.1'
+
 cookbook 'huginn', :git => 'git://github.com/elijah/cookbook-huginn.git'
 
 

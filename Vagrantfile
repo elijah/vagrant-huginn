@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider :virtualbox do |vb, override|
     #vb.memory = 1024
     #vb.cpus = 4
-    override.vm.box = "hashicorp/precise64"
+    override.vm.box = "ubuntu/trusty64"
     override.vm.network :forwarded_port, host: 5000, guest: 5000
   end
 
