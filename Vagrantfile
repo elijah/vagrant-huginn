@@ -15,6 +15,8 @@ Vagrant.configure("2") do |config|
     vb.memory = 2048
     vb.cpus = 4
     override.vm.box = "ubuntu/trusty64"
+    # If you need to bridge this onto a network instead of running it localhost-only, do this:
+    # override.vm.network "public_network", bridge: 'en0: Wi-Fi (AirPort)'
     override.vm.network :forwarded_port, host: 5000, guest: 5000
   end
 
